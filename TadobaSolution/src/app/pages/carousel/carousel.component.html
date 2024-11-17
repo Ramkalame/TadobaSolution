@@ -15,6 +15,7 @@
     <div class="text-div">
         <h1>{{carouselData[selectedIndex].imgTitle}}</h1>
         <p>{{carouselData[selectedIndex].imgDescription}}</p>
+        <button mat-button class="read-more-btn" >Read More</button>
     </div>
     <div *ngIf="indicators" class="carousel-dot-container">
         <span *ngFor="let dot of carouselData; let i=index" class="dot" [ngClass]="{'active': selectedIndex === i}"
