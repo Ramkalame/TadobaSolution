@@ -17,7 +17,8 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
        FooterComponent,
         TermsAndConditionComponent,
          AboutUsComponent,
-          ContactUsComponent],
+          ContactUsComponent,
+        ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

@@ -1,20 +1,94 @@
-.container{
+.container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     align-items: center;
     font-family: sans-serif;
-    background: rgba(255, 0, 0, 0.356);
+    background: aqua;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
 }
-.nav-bar-link{
+
+.nav-bar-link {
     display: flex;
     justify-content: space-between;
-    background: rgba(102, 51, 153, 0.24);
-
 }
-.nav-bar-link li{
+
+.nav-bar-link li {
     margin-left: 35px;
-    text-decoration: none;
     list-style-type: none;
     font-size: 15px;
+}
+
+.nav-bar-link li a {
+    text-decoration: none;
+    color: black;
+}
+
+.tadoba-logo a img {
+    height: 45px;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 35px;
+    background-color: #fff;
+    
+}
+.search input{
+    height: 25px;
+
+}
+.search button{
+    height: 27px;
+    width: 40px;
+
+}
+.services{
+    display: none;
+}
+.products{
+    display: none;
+}
+
+.nav-bar-link li:hover .services{
+    display: block;
+    position: absolute;
+    background-color: aqua;
+    text-align: left;
+    padding: 23px 23px 23px 0px;
+
+}
+
+
+.nav-bar-link li:hover .products{
+    display: block;
+    position: absolute;
+    background-color: aqua;
+    text-align: left;
+    padding: 23px 23px 23px 0px;
+    
+}
+
+.services ul li{
+    margin-top: 10px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.404);
+
+}
+.products ul li{
+    margin-top: 10px;  
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.404); 
+}
+.nav-bar-link li button{
+    padding: 3px 5px 3px 5px;
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 5px;
+
 }

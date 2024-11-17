@@ -1,34 +1,55 @@
 {
-  "hash": "f82cd66f",
-  "configHash": "de13995d",
-  "lockfileHash": "c0fa8f34",
-  "browserHash": "ba07fe4c",
+  "hash": "66fcfa29",
+  "configHash": "5f81b1b8",
+  "lockfileHash": "f02b3509",
+  "browserHash": "dfb50362",
   "optimized": {
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "536663c3",
+      "fileHash": "ae866169",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "bc03c05c",
+      "fileHash": "460e8f16",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "ae4986b7",
+      "fileHash": "36b2c87b",
+      "needsInterop": false
+    },
+    "@fortawesome/angular-fontawesome": {
+      "src": "../../../../../node_modules/@fortawesome/angular-fontawesome/fesm2022/angular-fontawesome.mjs",
+      "file": "@fortawesome_angular-fontawesome.js",
+      "fileHash": "c129c79b",
+      "needsInterop": false
+    },
+    "@fortawesome/free-solid-svg-icons": {
+      "src": "../../../../../node_modules/@fortawesome/free-solid-svg-icons/index.mjs",
+      "file": "@fortawesome_free-solid-svg-icons.js",
+      "fileHash": "f53627db",
+      "needsInterop": false
+    },
+    "@fortawesome/free-brands-svg-icons": {
+      "src": "../../../../../node_modules/@fortawesome/free-brands-svg-icons/index.mjs",
+      "file": "@fortawesome_free-brands-svg-icons.js",
+      "fileHash": "5cc028f9",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-L6VIMCJS": {
-      "file": "chunk-L6VIMCJS.js"
+    "chunk-CNHWVS7J": {
+      "file": "chunk-CNHWVS7J.js"
     },
-    "chunk-5FUJWLSI": {
-      "file": "chunk-5FUJWLSI.js"
+    "chunk-GZOGL7SD": {
+      "file": "chunk-GZOGL7SD.js"
+    },
+    "chunk-J4B6MK7R": {
+      "file": "chunk-J4B6MK7R.js"
     }
   }
 }
