@@ -17,7 +17,8 @@ import { RouterOutlet } from '@angular/router';
        FooterComponent,
         TermsAndConditionComponent,
          AboutUsComponent,
-          ContactUsComponent],
+          ContactUsComponent,
+        ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
