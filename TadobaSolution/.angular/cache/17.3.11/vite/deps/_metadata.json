@@ -1,52 +1,52 @@
 {
-  "hash": "66fcfa29",
-  "configHash": "5f81b1b8",
-  "lockfileHash": "f02b3509",
-  "browserHash": "dfb50362",
+  "hash": "bd83bce4",
+  "configHash": "a206e7b5",
+  "lockfileHash": "c2504006",
+  "browserHash": "1f096f82",
   "optimized": {
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "ae866169",
+      "fileHash": "79accd0f",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "460e8f16",
+      "fileHash": "0c36b4f9",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "36b2c87b",
+      "fileHash": "77297118",
       "needsInterop": false
     },
     "@fortawesome/angular-fontawesome": {
       "src": "../../../../../node_modules/@fortawesome/angular-fontawesome/fesm2022/angular-fontawesome.mjs",
       "file": "@fortawesome_angular-fontawesome.js",
-      "fileHash": "c129c79b",
-      "needsInterop": false
-    },
-    "@fortawesome/free-solid-svg-icons": {
-      "src": "../../../../../node_modules/@fortawesome/free-solid-svg-icons/index.mjs",
-      "file": "@fortawesome_free-solid-svg-icons.js",
-      "fileHash": "f53627db",
+      "fileHash": "08ff55f2",
       "needsInterop": false
     },
     "@fortawesome/free-brands-svg-icons": {
       "src": "../../../../../node_modules/@fortawesome/free-brands-svg-icons/index.mjs",
       "file": "@fortawesome_free-brands-svg-icons.js",
-      "fileHash": "5cc028f9",
+      "fileHash": "7aee3453",
+      "needsInterop": false
+    },
+    "@fortawesome/free-solid-svg-icons": {
+      "src": "../../../../../node_modules/@fortawesome/free-solid-svg-icons/index.mjs",
+      "file": "@fortawesome_free-solid-svg-icons.js",
+      "fileHash": "73c3756d",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-CNHWVS7J": {
-      "file": "chunk-CNHWVS7J.js"
+    "chunk-SI6W2WIO": {
+      "file": "chunk-SI6W2WIO.js"
     },
-    "chunk-GZOGL7SD": {
-      "file": "chunk-GZOGL7SD.js"
+    "chunk-PMDJ4H6S": {
+      "file": "chunk-PMDJ4H6S.js"
     },
     "chunk-J4B6MK7R": {
       "file": "chunk-J4B6MK7R.js"

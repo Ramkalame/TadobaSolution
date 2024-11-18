@@ -1,6 +1,6 @@
 import {
   DomSanitizer
-} from "./chunk-CNHWVS7J.js";
+} from "./chunk-SI6W2WIO.js";
 import {
   Component,
   Directive,
@@ -28,7 +28,7 @@ import {
   ɵɵprojection,
   ɵɵprojectionDef,
   ɵɵsanitizeHtml
-} from "./chunk-GZOGL7SD.js";
+} from "./chunk-PMDJ4H6S.js";
 import {
   __spreadProps,
   __spreadValues
