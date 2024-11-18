@@ -5,7 +5,7 @@
         <button><i class="bi bi-search"></i></button>
     </div> -->
     <ul class="nav-bar-link">
-        <li><a href="#">Services</a>
+        <li><a href="#"><fa-icon [icon]="service"></fa-icon>Services</a>
             <div class="services">
                 <ul>
                     <li><a href="#">Solar Panal Installation</a></li>
@@ -14,7 +14,7 @@
                 </ul>
             </div>
         </li>
-        <li><a href="#">Products</a>
+        <li><a href="#"><fa-icon [icon]="product"></fa-icon>Products</a>
             <div class="products">
                 <ul>
                     <li><a href="#">Manufactured Product</a></li>
@@ -22,10 +22,13 @@
                 </ul>
              </div>
         </li>
-        <li><a href="#">Dealer & Distributorship</a></li>
-        <li><a href="#">Courses</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><a href="#"><fa-icon [icon]="dealer"></fa-icon>Dealer & Distributorship</a></li>
+        <li><a href="#"><fa-icon [icon]="course"></fa-icon>Courses</a></li>
+        <li><a href="#"><fa-icon [icon]="about"></fa-icon>About Us</a></li>
         <li><button>SignUp</button></li>
     </ul>
+    <div class="hamburger-menu">
+        <fa-icon [icon]="hamBurgerMenu"></fa-icon>
+    </div>
     
 </header>

@@ -65,3 +65,27 @@
 .copy-right p{
     color: white;
 }
+@media (min-width: 600px) and (max-width: 1024px){
+    .sec{
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .links{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        padding: 30px;
+    }
+}
+@media (max-width: 600px){
+    .sec{
+        margin-bottom: 27px;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+
+    }
+}

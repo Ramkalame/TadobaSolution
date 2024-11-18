@@ -25,6 +25,9 @@
     text-decoration: none;
     color: black;
 }
+.nav-bar-link li a fa-icon{
+    margin-right: 5px;
+}
 
 .tadoba-logo a img {
     height: 45px;
@@ -90,5 +93,34 @@
     background-color: white;
     border: 1.5px solid black;
     border-radius: 5px;
+
+}.hamburger-menu{
+    display: none;
+}
+@media (min-width: 600px) and (max-width: 1024px){
+    .nav-bar-link{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger-menu fa-icon{
+        font-size: 20px;
+        color: black;
+    }
+}
+@media (max-width: 600px) {
+    .nav-bar-link{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger-menu fa-icon{
+        font-size: 20px;
+        color: black;
+    }
 
 }
