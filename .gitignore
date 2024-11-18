@@ -55,7 +55,6 @@ Thumbs.db
 *.js.map
 
 # Compiled CSS
-*.css
 *.css.map
 
 # Environment variables
