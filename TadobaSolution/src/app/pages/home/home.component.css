@@ -141,11 +141,42 @@
 
 
 
-@media (min-width: 800px){
+@media (min-width: 426px) and (max-width:768px){
     .quote-description-div{
         font-size:32px;
         flex-direction: row;
         justify-content: space-evenly;
     }
-   
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .card{
+        width: 300px;
+        margin-bottom: 20px;
+        margin-right: 50px;
+        margin-left: 30px;
+    }
+    .card .p-img{
+        width: 290px;
+    }
+    .p-img img{
+        width: 290px;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .products{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .card{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    
 }
