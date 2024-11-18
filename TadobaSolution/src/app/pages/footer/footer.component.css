@@ -1,0 +1,91 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1A2936;
+    font-family: sans-serif;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.links h3{
+    color: white;
+}
+.links ul li{
+    margin-top: 10px;
+}
+.links ul li fa-icon{
+    color: white;
+    margin-right: 7px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.social-copy{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.sos-med{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid white;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    
+
+}
+.sos-med fa-icon{
+    font-size: 25px;
+    color: wheat;
+}
+.copy-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+.copy-right p{
+    color: white;
+}
+@media (min-width: 600px) and (max-width: 1024px){
+    .sec{
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .links{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        padding: 30px;
+    }
+}
+@media (max-width: 600px){
+    .sec{
+        margin-bottom: 27px;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+
+    }
+}
