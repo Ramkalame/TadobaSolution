@@ -4,7 +4,7 @@
     text-align: center;
     align-items: center;
     font-family: sans-serif;
-    background: aqua;
+    background: white;
     padding-left: 10px;
     padding-right: 10px;
     height: 60px;
@@ -61,9 +61,10 @@
 .nav-bar-link li:hover .services{
     display: block;
     position: absolute;
-    background-color: aqua;
+    background-color: white;
     text-align: left;
     padding: 23px 23px 23px 0px;
+    z-index: 999;
 
 }
 
@@ -71,9 +72,10 @@
 .nav-bar-link li:hover .products{
     display: block;
     position: absolute;
-    background-color: aqua;
+    background-color: white;
     text-align: left;
     padding: 23px 23px 23px 0px;
+    z-index: 999;
     
 }
 
