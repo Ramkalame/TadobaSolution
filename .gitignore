@@ -32,6 +32,9 @@ node_modules/
 
 # Angular cache files
 .angular/
+.angular/cache/
+**/.tsbuildinfo
+
 
 # Angular build artifacts and files
 dist/
