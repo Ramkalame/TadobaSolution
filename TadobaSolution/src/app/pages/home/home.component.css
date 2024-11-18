@@ -76,55 +76,55 @@
 }
 /* Mobile screen styles */
 @media (max-width: 449px) {
-    .service-row {
-        display: flex;
-        flex-direction: column;      /* Stack items vertically */
-        justify-content: center;     /* Vertically center the content */
-        align-items: center;         /* Horizontally center the cards */
-        gap: 15px;                   /* Space between cards */
-        width: 100%;                 /* Make sure the container takes full width */
-    }
+  .service-row {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Horizontally center the cards */
+    gap: 15px; /* Space between cards */
+    width: 100%; /* Make sure the container takes full width */
+  }
 
-    .service-row app-service-card {
-        width: 100%;                  /* Set to 100% to ensure full width */
-        max-width: 356px;             /* Limit maximum width for larger screens */
-        margin: 0 auto;               /* Center the card horizontally */
-        box-sizing: border-box;       /* Ensure padding and borders are included in width */
-    }
+  .service-row app-service-card {
+    width: 100%; /* Set to 100% to ensure full width */
+    max-width: 356px; /* Limit maximum width for larger screens */
+    margin: 0 auto; /* Center the card horizontally */
+    box-sizing: border-box; /* Ensure padding and borders are included in width */
+  }
 }
 
 /* Large screens: Horizontal scrolling */
 @media (min-width: 450px) {
-    .service-container {
-        overflow-x: hidden;
-    }
-    
-    .service-row {
-        display: flex; 
-        gap: 10px; 
-        overflow-x: auto; 
-        scroll-behavior: smooth;
-    }
+  .service-container {
+    overflow-x: hidden;
+  }
 
-    .service-row app-service-card {
-        flex: 0 0 auto; 
-        width: 356px;
-    }
+  .service-row {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
 
-    .service-row::-webkit-scrollbar {
-        display: none;
-    }
+  .service-row app-service-card {
+    flex: 0 0 auto;
+    width: 356px;
+  }
 
-    .service-row::-webkit-scrollbar-thumb {
-        background: #ccc;
-        border-radius: 10px;
-    }
+  .service-row::-webkit-scrollbar {
+    display: none;
+  }
 
-    .service-row::-webkit-scrollbar-thumb:hover {
-        background: #888;
-    }
+  .service-row::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+  }
 
-    .service-row::-webkit-scrollbar-track {
-        background: #f0f0f0;
-    }
+  .service-row::-webkit-scrollbar-thumb:hover {
+    background: #888;
+  }
+
+  .service-row::-webkit-scrollbar-track {
+    background: #f0f0f0;
+  }
 }
