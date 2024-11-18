@@ -1,0 +1,54 @@
+.quote-description-div{
+    background-color: #2C547F;
+    color: white;
+    font-size:26px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.quote-btn{
+    height: 40px;
+    width: 178px;
+    background-color: #FF9D00;
+    color: black;
+}
+.about-us-div{
+    padding: 10px;
+}
+.about-us-div .heading{
+    font-size: 20px;
+    color: #373737;
+}
+.about-us-div .description{
+    font-size: 14px;
+    color: #373737;
+    text-align: justify;
+}
+.about-us-div .explore-btn{
+    height: 30px;
+    width: 105px;
+    border-radius: 5px;
+    background-color: #2C547F;
+    font-size: 11px;
+    color: white !important;
+    margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+
+
+@media (min-width: 800px){
+    .quote-description-div{
+        font-size:32px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+   
+}
